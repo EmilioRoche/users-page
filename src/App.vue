@@ -1,6 +1,5 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import Navbar from './components/Navbar.vue';
 </script>
 
 <template>
@@ -11,6 +10,9 @@ import Navbar from './components/Navbar.vue';
         <RouterLink to="/about">About</RouterLink>
       </nav>
   </header> -->
+  <main>
+
+  </main>
   <RouterView />
 </template>
 
