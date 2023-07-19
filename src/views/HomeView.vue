@@ -1,6 +1,7 @@
 <script setup>
 import TheWelcome from '../components/TheWelcome.vue'
 import Navbar from '../components/Navbar.vue'
+import Footer from '../components/Footer.vue'
 </script>
 
 <template>
@@ -10,4 +11,10 @@ import Navbar from '../components/Navbar.vue'
     </header>
     <!-- <TheWelcome /> -->
   </main>
+  <footer>
+    
+  <Footer>
+    
+  </Footer>
+  </footer>
 </template>
