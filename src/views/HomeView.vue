@@ -1,26 +1,15 @@
 <script setup>
 import TheWelcome from '../components/TheWelcome.vue'
 import Navbar from '../components/Navbar.vue'
-import Footer from '../components/Footer.vue'
+import Footervue from '../components/Footer.vue'
 import Bodyvue from '../components/Body.vue';
 </script>
 
 <template>
+    <Navbar/>
   <main>
-    <header>
-      <Navbar/>
-    </header>
-    <Bodyvue> 
-    
-
+    <Bodyvue/>  
     <!-- <TheWelcome /> -->
-     
-    </Bodyvue>
   </main>
-  
-
-  <Footer>
-
-  </Footer>
-  
+  <Footervue/>
 </template>
