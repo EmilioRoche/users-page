@@ -2,6 +2,7 @@
 import TheWelcome from '../components/TheWelcome.vue'
 import Navbar from '../components/Navbar.vue'
 import Footer from '../components/Footer.vue'
+import Bodyvue from '../components/Body.vue';
 </script>
 
 <template>
@@ -9,12 +10,17 @@ import Footer from '../components/Footer.vue'
     <header>
       <Navbar/>
     </header>
+    <Bodyvue> 
+    
+
     <!-- <TheWelcome /> -->
+     
+    </Bodyvue>
   </main>
-  <footer>
-    
+  
+
   <Footer>
-    
+
   </Footer>
-  </footer>
+  
 </template>

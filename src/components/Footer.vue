@@ -4,7 +4,7 @@
     <!-- Remove the container if you want to extend the Footer to full width. -->
   <!-- Footer -->
   <footer
-          class="text-center text-lg-start text-white"
+          class="text-center text-lg-start text-white fixed-bottom"
           style="background-color: #3e4551"
           >
     <!-- Grid container -->
